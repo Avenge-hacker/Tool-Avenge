@@ -39,7 +39,8 @@ echo " [27]  Email-Bomber "
 echo " [28]  TBomb "
 echo " [29]  Shellphish "
 echo " [30]  Zphisher "
-echo " [31]  Exit "
+echo " [31]  Beck "
+echo " [32]  Exit "
 read ch
 if [ $ch -eq 1 ];then
 clear
@@ -63,6 +64,16 @@ pkg install python2 -y
 git clone https://github.com/Avenge-hacker/Botkomena.git
 cd Tool-Avenge
 ./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 31 ];then
+clear
+cd $HOME
+cd Tool-Avenge
+./Tool-Avenge
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 32 ];then
 rm *.xxx >/dev/null 2>&1
 exit 0
 echo -e "\e[1;32m TBomb Will Restart Now..."
