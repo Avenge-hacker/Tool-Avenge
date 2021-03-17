@@ -70,7 +70,7 @@ elif [ $ch -eq 31 ];then
 clear
 cd $HOME
 cd Tool-Avenge
-./Tool-Avenge
+bash Tool-Avenge
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 32 ];then
