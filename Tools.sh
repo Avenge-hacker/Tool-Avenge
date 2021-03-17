@@ -39,8 +39,7 @@ echo " [27]  Email-Bomber "
 echo " [28]  TBomb "
 echo " [29]  Shellphish "
 echo " [30]  Zphisher "
-echo " [31]  Beck "
-echo " [32]  Exit "
+echo " [31]  Exit "
 read ch
 if [ $ch -eq 1 ];then
 clear
