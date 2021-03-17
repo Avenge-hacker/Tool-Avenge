@@ -33,14 +33,14 @@ sleep 2.0
 clear
 echo " "
 echo " "
-echo -e "$grn                updating the HackLock please wait$rset"
+echo -e "$grn                updating the Tool-Avenge please wait$rset"
 sleep 2.0
 cd $HOME
 rm -rf Tool-Avenge
 git clone https://github.com/Avenge-hacker/Tool-Avenge
 clear
 echo " "
-echo -e "$grn               HackLock has been updated check it now...$rset"
+echo -e "$grn               Tool-Avenge has been updated check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
