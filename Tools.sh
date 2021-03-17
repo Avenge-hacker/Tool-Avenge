@@ -70,10 +70,7 @@ elif [ $ch -eq 31 ];then
 clear
 cd $HOME
 cd Tool-Avenge
-bash Tool-Avenge
-rm *.xxx >/dev/null 2>&1
-exit 0
-elif [ $ch -eq 32 ];then
+./Tool-Avenge
 rm *.xxx >/dev/null 2>&1
 exit 0
 echo -e "\e[1;32m TBomb Will Restart Now..."
