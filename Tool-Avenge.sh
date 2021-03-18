@@ -1,17 +1,24 @@
 #!/bin/bash
-
+# A tool by nitro from avengeyt.cf
+# Be a unique person not copy cat
+# Colours
+#-----------------
+red='\033[1;31m'
+rset='\033[0m'
+grn='\033[1;32m'
+ylo='\033[1;33m'
+blue='\033[1;34m'
+cyan='\033[1;36m'
+pink='\033[1;35m'
+#-----------------
+# scripting starts
 clear
-echo "Press Enter To Continue"
-read a1
-while :
-do
-clear
-echo -e "\e[1;31m"
+echo  "\e[35;1m"
 toilet -f mono12 -F border Avenge
 echo " "
-echo "Press 1 To  Tools "
-echo "Press 2 To  Update "
-echo "Press 3 To  Exit "
+echo  "$red                         ➡$cyan [1️⃣]  Tools "
+echo  "$red                        ➡️$cyan [2️⃣]  Update "
+echo  "$red                         ➡$cyan [3️⃣]  Exit "
 read ch
 if [ $ch -eq 1 ];then
 clear
@@ -25,6 +32,11 @@ elif [ $ch -eq 2 ];then
 clear
 cd $HOME/Tool-Avenge/core/update
 bash updates.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 3 ];then
+clear
+cd $HOME
 rm *.xxx >/dev/null 2>&1
 exit 0
 echo -e "\e[1;32m TBomb Will Restart Now..."
