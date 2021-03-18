@@ -1,4 +1,3 @@
-#!/bin/bash
 # A tool by nitro from avengeyt.cf
 # Be a unique person not copy cat
 # Colours
