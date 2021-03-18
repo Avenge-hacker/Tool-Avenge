@@ -33,11 +33,6 @@ cd $HOME/Tool-Avenge/core/update
 bash updates.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
-elif [ $ch -eq 3 ];then
-clear
-cd $HOME
-rm *.xxx >/dev/null 2>&1
-exit 0
 echo -e "\e[1;32m TBomb Will Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
