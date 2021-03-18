@@ -22,14 +22,18 @@ read ch
 if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
-rm *.xxx >/dev/null 2>&1
 bash update.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
-rm *.xxx >/dev/null 2>&1
 bash uninstall.sh
 rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 3 ];then
+clear
+cd $HOME
+rm *.xxx >/dev/null 2>&1
+exit 0
 fi
 done
