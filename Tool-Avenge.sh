@@ -12,7 +12,7 @@ pink='\033[1;35m'
 #-----------------
 # scripting starts
 clear
-echo  "\e[35;1m"
+echo  "\e[36;1m"
 toilet -f mono12 -F border Avenge
 echo " "
 echo  "$red                         ➡$cyan [1️⃣]  Tools "
