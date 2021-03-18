@@ -8,6 +8,7 @@ do
 clear
 echo -e "\e[1;31m"
 toilet -f mono12 -F border TOOLS
+echo -e "\u001b[34m"
 echo " "
 echo " [1]   Autolike" 
 echo " [2]   Avenge-Payload "
