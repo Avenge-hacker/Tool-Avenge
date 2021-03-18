@@ -65,6 +65,227 @@ cd Tool-Avenge
 ./Tool-Avenge.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
+elif [ $ch -eq 4 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/bot-reaction-gettoken.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 5 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/CamPhish.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 6 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Cam-Hackers.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 7 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/EmailVuln.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 8 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/ffssdp.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 9 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/getFBtoken.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 10 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/GoblinWordGenerator.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 11 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Hacklock.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 12 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Basic-command.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 13 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Instainsane.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 14 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Infect.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 15 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/InfoFB.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 16 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/IPGeoLocation.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 17 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Lockphish.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 18 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/mbf.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 19 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/ProfileGuardFb.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 20 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/python-sms-sender.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 21 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Report.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 22 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/FB-React.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 23 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Firecrack.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 24 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Vbug.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 25 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/fb-autoreaction.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 26 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/facebash-termux.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 27 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/Email-Bomber.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 28 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/TBomb.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 29 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/shellphish.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 30 ];then
+clear
+cd $HOME
+git clone https://github.com/Avenge-hacker/zphisher.git
+cd Tool-Avenge
+./Tool-Avenge.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 31 ];then
+clear
+cd $HOME
+rm *.xxx >/dev/null 2>&1
+exit 0
 echo -e "\e[1;32m TBomb Will Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
