@@ -1,12 +1,18 @@
 #!/bin/bash
 
 clear
+echo "Press Enter To Continue"
+read a1
+while :
+do
+rm *.xxx >/dev/null 2>&1
+clear
 echo  "\e[35;1m"
 toilet -f mono12 -F border Avenge
 echo " "
-echo  "                         ➡$cyan [1️⃣]  Tools "
-echo  "                  ➡️$cyan [2️⃣]  Update "
-echo  "                          ➡$cyan [3️⃣]  Exit "
+echo  "                         ➡ [1️⃣]  Tools "
+echo  "                        ➡️ [2️⃣]  Update "
+echo  "                          ➡ [3️⃣]  Exit "
 read ch
 if [ $ch -eq 1 ];then
 clear
