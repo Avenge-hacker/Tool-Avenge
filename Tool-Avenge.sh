@@ -7,12 +7,13 @@ while :
 do
 rm *.xxx >/dev/null 2>&1
 clear
-echo  "\e[35;1m"
-toilet -f mono12 -F border Avenge
-echo " "
-echo  "                         ➡ [1️⃣]  Tools "
-echo  "                        ➡️ [2️⃣]  Update "
-echo  "                          ➡ [3️⃣]  Exit "
+echo -e "\e[35;1m"
+toilet Tool-Avenge
+echo ""
+echo ""
+echo -e "\e[35;1m                         ➡ [1️⃣]  Tools \e[0m"
+echo -e "\e[35;1m                        ➡️ [2️⃣]  Update \e[0m"
+echo -e "\e[35;1m                          ➡ [3️⃣]  Exit \e[0m"
 read ch
 if [ $ch -eq 1 ];then
 clear
@@ -40,7 +41,7 @@ read a6
 ./Tool-Avenge.sh
 exit
 echo -e "\e[35;1m"
-toilet -f mono12 -F border Avenge
+toilet Tool-Avenge
 echo " "
 exit 0
 else
