@@ -19,7 +19,7 @@ echo " "
 echo " "
 sleep 6.0
 clear
-echo -e "$red                  𝐥𝐨𝐚𝐝𝐢𝐧𝐠. . .  $rset"
+echo -e "$red                  loding. . .  $rset"
 sleep 2.0
 echo -e "$red                         █ 15% $rset"
 sleep 2.0
@@ -39,24 +39,24 @@ clear
 echo -e "$red                         ██████ 100% $rset"
 sleep 2.0
 clear
-echo -e "$red                            𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞! $rset"
+echo -e "$red                            Complete $rset"
 sleep 2.0
 clear
 echo " "
 echo " "
-echo -e "$grn                updating the Tool-Avenge please wait$rset"
+echo -e "$grn                updating the Format-pendrive please wait$rset"
 sleep 2.0
 cd $HOME
-rm -rf Tool-Avenge
-git clone https://github.com/Avenge-hacker/Tool-Avenge
+rm -rf Format-pendrive
+git clone https://github.com/Avenge-hacker/Format-pendrive
 clear
 echo " "
-echo -e "$grn               Tool-Avenge has been updated check it now...$rset"
+echo -e "$grn               Format-pendrive has been updated check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
-cd Tool-Avenge
-chmod +x Tool-Avenge.sh
-bash Tool-Avenge.sh
+cd Format-pendrive
+chmod +x format.sh
+bash format.sh
 clear
 sleep 1.0
