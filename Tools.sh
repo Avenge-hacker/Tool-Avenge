@@ -40,7 +40,8 @@ echo " [27]  Email-Bomber "
 echo " [28]  TBomb "
 echo " [29]  Shellphish "
 echo " [30]  Zphisher "
-echo " [31]  Exit "
+echo " [31]  Back "
+echo " [32]  Exit "
 read ch
 if [ $ch -eq 1 ];then
 clear
@@ -285,16 +286,23 @@ exit 0
 elif [ $ch -eq 31 ];then
 clear
 cd $HOME
+cd Tool-Avenge
+./Tool-Avenge
 rm *.xxx >/dev/null 2>&1
 exit 0
-echo -e "\e[1;32m TBomb Will Restart Now..."
+elif [ $ch -eq 32 ];then
+clear
+cd $HOME
+rm *.xxx >/dev/null 2>&1
+exit 0
+echo -e "\e[1;32m Tool-Avenge Will Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
 read a6
 ./Command.sh
 exit
 echo -e "\e[1;31m"
-toilet -f mono12 -F border Avenge
+toilet -f mono12 -F border Tools
 echo " "
 exit 0
 else
