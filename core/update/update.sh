@@ -19,16 +19,27 @@ echo " "
 echo " "
 sleep 6.0
 clear
-echo -e "$red                         ChEcKiNg..>$rset"
+echo -e "$red                  𝐥𝐨𝐚𝐝𝐢𝐧𝐠. . .  $rset"
+sleep 2.0
+echo -e "$red                         █ 15% $rset"
 sleep 2.0
 clear
-echo -e "$red                         ChEcKiNg...>$rset"
+echo -e "$red                         ██ 30% $rset"
 sleep 2.0
 clear
-echo -e "$red                         ChEcKiNg....>$rset"
+echo -e "$red                         ███ 45% $rset"
 sleep 2.0
 clear
-echo -e "$red                         ChEcKiNg.....>$rset"
+echo -e "$red                         ████ 60% $rset"
+sleep 2.0
+clear
+echo -e "$red                         █████ 75% $rset"
+sleep 2.0
+clear
+echo -e "$red                         ██████ 100% $rset"
+sleep 2.0
+clear
+echo -e "$red                            𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞! $rset"
 sleep 2.0
 clear
 echo " "
